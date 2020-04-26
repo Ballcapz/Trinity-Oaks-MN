@@ -22,6 +22,8 @@ const PostContent = styled.div`
   margin-top: 4rem;
 `;
 
+
+
 interface Props {
   data: {
     markdownRemark: Post;

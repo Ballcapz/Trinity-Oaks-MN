@@ -31,8 +31,8 @@ const GridRow: any = styled.div`
     props.background
       ? `linear-gradient(
       -185deg,
-      ${rgba(darken(0.1, props.theme.colors.primary), 0.7)}, 
-      ${rgba(lighten(0.1, props.theme.colors.black), 0.9)}), url(${config.defaultBg}) no-repeat`
+      ${rgba(darken(0.1, props.theme.colors.grey.ultraLight), 0.7)}, 
+      ${rgba(lighten(0.1, props.theme.colors.black), 0.6)}), url(${config.defaultBg}) no-repeat`
       : null};
   background-size: cover;
   padding: 2rem 4rem;
@@ -64,10 +64,10 @@ export default ({ data }: PageProps) => {
             <HomepageContent center={true}>
               <img src={config.siteLogo} alt={config.siteTitle} />
               <h1>
-                Hi. I am <br />
-                Majid Hajian
+                Welcome to<br />
+                our farm!
               </h1>
-              <p>I write about Dart, Flutter, JavaScript, Angular, React, and ...</p>
+              <p>We sustainably raise animals and grow vegetables</p>
               <Link to="/contact">
                 <Button big={true}>
                   <svg
@@ -98,12 +98,12 @@ export default ({ data }: PageProps) => {
           </GridRow>
           <GridRow>
             <HomepageContent>
-              <h2>About Me</h2>
+              <h2>About</h2>
               <p>
-                Though I am a results-driven softiware architect and developer by day who have
-                converted inactive designs to fully interactive, well-developed, accessible and
-                standards-based user interfaces. I am completely enthusiast and passionate about
-                Flutter/Dart and JavaScript world.
+                We farm and stuff...
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Maiores, libero eos ab ullam voluptas nemo sunt dolorem excepturi 
+                aliquid dignissimos.
               </p>
               <hr />
               <h2>Latest Blog</h2>

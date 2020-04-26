@@ -1,24 +1,22 @@
 export default {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
-  siteTitle: 'Typescript Power Blog', // Navigation and Site Title
-  siteTitleAlt: 'Typescript Power Blog - Gatsby Starter', // Alternative Site title for SEO
-  siteUrl: 'https://typescript-power-blog.github.com', // Domain of your site. No trailing slash!
+  siteTitle: 'Trinity Oaks MN', // Navigation and Site Title
+  siteTitleAlt: 'Trinity Oaks MN - Trinity Oaks Farms', // Alternative Site title for SEO
+  siteUrl: 'https://trinityoaksmn.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteBanner: '/assets/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
-  defaultBg: '/assets/bg.png', // default post background header
-  favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
-  siteDescription: 'Typescript Power Blog with big typography', // Your site description
-  author: 'Majid Hajian', // Author for schemaORGJSONLD
-  siteLogo: '/assets/logo.png', // Image for schemaORGJSONLD
+  defaultBg: '/assets/bg.jpg', // default post background header
+  favicon: 'src/android-chrome-512x512.png', // Your image for favicons. You can find it in the /src folder
+  siteDescription: 'Trinity Oaks Farm - Chickens, Pigs, and Vegetables', // Your site description
+  author: 'Zach Johnson', // Author for schemaORGJSONLD
+  siteLogo: '/assets/logo.jpg', // Image for schemaORGJSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@mhadaily', // Twitter Username - Optional
-  ogSiteName: 'mhadaily', // Facebook Site Name - Optional
+  userTwitter: '@notthefakezj', // Twitter Username - Optional
+  ogSiteName: '', // Facebook Site Name - Optional
   ogLanguage: 'en_US', // Facebook Language
 
-  // Manifest and Progress color
-  // See: https://developers.google.com/web/fundamentals/web-app-manifest/
   themeColor: '#3498DB',
   backgroundColor: '#2b2e3c',
 

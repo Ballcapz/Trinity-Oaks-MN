@@ -18,4 +18,7 @@ export interface BlogTheme {
     small: string;
     big: string;
   };
+  fontWeight: {
+    bold: string;
+  };
 }

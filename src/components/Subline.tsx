@@ -6,6 +6,7 @@ interface Props {
 
 export const Subline = styled.div<Props>`
   font-size: ${(props) => props.theme.fontSize.small};
-  color: ${(props) => props.theme.colors.grey.default};
+  font-weight: ${(props) => props.theme.fontWeight.bold};
+  color: ${(props) => props.theme.colors.white};
   ${(props) => props.sectionTitle && 'text-align: center;'}
 `;

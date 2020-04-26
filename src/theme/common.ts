@@ -3,8 +3,12 @@ const transitions = {
 };
 
 const fontSize = {
-  small: '0.9rem',
+  small: '1rem',
   big: '2.9rem',
 };
 
-export { transitions, fontSize };
+const fontWeight = {
+  bold: 'bold'
+};
+
+export { transitions, fontSize, fontWeight };

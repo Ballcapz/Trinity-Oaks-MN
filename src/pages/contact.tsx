@@ -1,7 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { Layout, Wrapper, Header, Button, Content, SectionTitle } from '../components';
+
+const Back = styled.img`
+  float: left;
+  margin-top: -20px;
+  margin-right: -20px;
+`;
+
 
 import config from '../../config/SiteConfig';
 
@@ -10,13 +18,14 @@ export default () => {
     <Layout>
       <Helmet title={`Contact | ${config.siteTitle}`} />
       <Header>
+        <Link to="/"><Back src="/assets/back-arrow.png" alt="Back" /></Link>
         <Link to="/">{config.siteTitle}</Link>
         <SectionTitle uppercase={true}>Contact</SectionTitle>
       </Header>
       <Wrapper>
         <Content>
           <p>Super cool intro text to get people contacting me!</p>
-          <a href="https://www.twitter.com/mhadaily">
+          <a href="https://www.twitter.com/notthefakezj">
             <Button big={true}>
               <svg
                 width="1792"
@@ -29,7 +38,7 @@ export default () => {
               Twitter
             </Button>
           </a>
-          <a href="https://www.linkedin.com/in/mhadaily">
+          <a href="https://www.linkedin.com/in/zach-johnson-5b1145127/">
             <Button big={true}>
               <svg
                 width="1792"
@@ -42,7 +51,7 @@ export default () => {
               Linkedin
             </Button>
           </a>
-          <a href="https://www.majidhajian.com">
+          <a href="https://www.ballcapz.dev">
             <Button big={true}>
               <svg
                 width="1792"

@@ -1,4 +1,4 @@
-import { transitions, fontSize } from './common';
+import { transitions, fontSize, fontWeight } from './common';
 
 const darkTheme = {
   colors: {
@@ -15,6 +15,7 @@ const darkTheme = {
   },
   transitions,
   fontSize,
+  fontWeight,
 };
 
 export { darkTheme };

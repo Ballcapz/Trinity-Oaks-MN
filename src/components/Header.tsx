@@ -8,7 +8,7 @@ const HeaderWrapper = styled.header<{ banner: string }>`
   position: relative;
   background: linear-gradient(
       -185deg,
-      ${(props) => rgba(darken(0.1, props.theme.colors.primary), 0.6)},
+      ${(props) => rgba(darken(0.1, props.theme.colors.black), 0.6)},
       ${(props) => rgba(lighten(0.1, props.theme.colors.grey.dark), 0.8)}
     ),
     url(${(props) => props.banner}) no-repeat;
